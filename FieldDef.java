@@ -2,7 +2,6 @@ package petpulse.ui;
 
 import java.time.LocalDate;
 
-/** Describes one input field of a CrudPanel (label, database column, type). */
 public final class FieldDef {
 
     public enum Type { TEXT, NUMBER, DATE, COMBO, PET }
